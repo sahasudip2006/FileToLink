@@ -70,7 +70,7 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='https://t.me/vj_bot_disscussion'>CLICK HERE FOR SUPPORT </a></b>",
+                text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='https://t.me/main_channel_bot_update'>CLICK HERE FOR SUPPORT </a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -128,8 +128,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/anjel_neha")],
-                [InlineKeyboardButton("💥 Source Code", url="https://t.me/anjel_neha")]
+                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/main_channel_bot_update")],
+                [InlineKeyboardButton("💥 Source Code", url="https://t.me/main_channel_bot_update")]
             ]
         )
     )
